@@ -12,7 +12,7 @@ export const Bot = () => {
   const bots = [
     {
       title: "Brew Hound Bot",
-      description: "Help you find your favorite beer",
+      description: "BrewHound is here to answer all your beer questions!",
       imgUrl: botImg,
     },
 
@@ -30,10 +30,10 @@ export const Bot = () => {
                 <Tab.Container id="bots-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Drink up and ask away!</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">What is BeerBot?</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -52,7 +52,7 @@ export const Bot = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>BeerBot.</p>
+                      <p>BeerBot is one of our core features within BrewHound. This is utlized through OpenAI's API allowing us to provide the most consice and accurate information for any of your beer needs. This also includes commonly asked questions for those drinkers who may not know what to ask. This is a completely free service and can accept a wide variety of different alcohol questions. Cheers!</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
