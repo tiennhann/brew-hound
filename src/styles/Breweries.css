@@ -2,6 +2,18 @@
     padding: 250px 0 100px 0;
     font-size: 45px;
     font-weight: 700;
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 250px 0 100px 0;
+    background-image: url("../assets/img/home.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 
