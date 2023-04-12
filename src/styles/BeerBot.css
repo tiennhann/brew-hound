@@ -9,7 +9,7 @@
 }
 
 .sidemenu {
-    width: 240px;
+    width: 280px;
     height: 95vh;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,6 +33,7 @@
     text-align: left;
     transition: ease 0.25s all;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .side-menu-button:hover {
