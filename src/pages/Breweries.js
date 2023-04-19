@@ -3,10 +3,13 @@ import React, { useEffect } from 'react';
 import "../styles/Breweries.css"
 
 function Breweries() {
+  var script;
   useEffect(() => {
     const apiKey = 'AIzaSyDZjmyir2GgRJfGJoUWMDijkP8VrB37H-A';
 
-    const script = document.createElement('script');
+    if( script !== undefined)
+      return;
+    script = document.createElement('script');
     script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap&v=weekly&libraries=places`;
     script.defer = true;
     script.addEventListener('load', () => {
