@@ -167,9 +167,9 @@ function Breweries() {
                       infowindow.setContent(
                         `<div style="max-width: 200px;">
                         <div style="width: 100%; height: 100px; overflow: hidden;">
-                          <img src="${place.photos[0].getUrl({maxWidth: 200, maxHeight: 100})}" style="width: 100%; height: 100%;">
+                        <img src="${place.photos[0].getUrl({maxWidth: 200, maxHeight: 100})}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
-                        <div style="padding: 10px;">
+                        <div style="padding: 10px; color: black;">
                           <h3 style="margin: 0 0 5px 0;">${place.name}</h3>
                           <p style="margin: 0 0 5px 0;">${place.formatted_address}</p>
                           <p style="margin: 0 0 5px 0;">${place.formatted_phone_number}</p>
