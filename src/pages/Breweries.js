@@ -205,7 +205,7 @@ function Breweries() {
   return (
     <section className="breweries" id="breweries">
       <h2>Breweries</h2>
-      <div id="map" style={{ width: '500px', height: '500px', margin: 'auto' }}></div>
+      <div id="map" style={{ width: '80%', height: '70vh', margin: 'auto', border: '10px solid black'}}></div>
     </section>
   );
   
