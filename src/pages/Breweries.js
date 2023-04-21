@@ -176,9 +176,9 @@ function Breweries() {
                           <p style="margin: 0 0 5px 0;">Website: <a href="${place.website}" target="_blank">${place.website}</a></p>
                           <p style="margin: 0 0 5px 0;">Rating: ${place.rating} (${place.reviews.length} reviews)</p>
                           <p style="margin: 0 0 5px 0;">Hours of Operation:</p>
-                          <ul style="margin: 0; padding-left: 15px;">
+                          ${openingHours !== "N/A" ? `<ul style="margin: 0; padding-left: 15px;">
                             ${place.opening_hours.weekday_text.map(day => `<li>${day}</li>`).join('')}
-                          </ul>
+                          </ul>` : "<p>Hours not available.</p>"}
                         </div>
                       </div>`
                       );
