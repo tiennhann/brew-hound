@@ -5,7 +5,7 @@ import logo from '../assets/img/ride2.png'
 function Ride() {
   return (
     <div>
-      <img src={logo} alt='Ride logo'/>
+      <img src={logo} alt='Ride logo'  style={{ width: '50%',height: '60vh', paddingTop: '150px',aspectRatio: '1 / 1' }}/>
       <h1>Too Drunk To Drive?</h1>
       <h3>Crimson Cab</h3>
       <p>
