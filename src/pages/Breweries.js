@@ -5,7 +5,7 @@ import "../styles/Breweries.css"
 function Breweries() {
   var script;
   useEffect(() => {
-    const apiKey = 'AIzaSyDZjmyir2GgRJfGJoUWMDijkP8VrB37H-A';
+    const apiKey = 'AIzaSyADKaoEzHMnfsAqSyxr5XxuNDjjNCB5CQ8';
 
     if( script !== undefined)
       return;
@@ -74,7 +74,7 @@ function Breweries() {
               };
     
               infoWindow.setPosition(pos);
-              infoWindow.setContent("Location found.");
+              infoWindow.setContent("<div style='color: black;'>Location found.</div>");
               infoWindow.open(map);
               map.setCenter(pos);
 
@@ -116,7 +116,7 @@ function Breweries() {
         { lat: 32.3146, lng: -106.7444, name: "Pecan Grill & Brewery" },
         { lat: 32.2855, lng: -106.7582, name: "Bosque Brewing Co." },
         { lat: 32.2709, lng: -106.7909, name: "Spotted Dog Brewery" },
-        { lat: 32.3105, lng: -106.8175, name: "The Other Place" },
+        { lat: 32.3107, lng: -106.8171, name: "Ice Box Picacho" },
         { lat: 32.3085, lng: -106.8377, name: "Picacho Peak Brewing Co." },
         { lat: 32.3434, lng: -106.7651, name: "Bosque Brewing Co. - Telshor" },
         { lat: 32.3445, lng: -106.7736, name: "The Other Place 2" },
