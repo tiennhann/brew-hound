@@ -1,19 +1,19 @@
-import AmberAle from "../assets/img/americanamberale.JPG";
-import AmberLager from "../assets/img/americanamberlager.JPG";
-import AmericanBarleyWine from "../assets/img/americanbarleylager.JPG";
-import AmericanBlackAle from "../assets/img/americanblackale.JPG";
-import AmericanBrett from "../assets/img/americanbrett.JPG";
-import AmericanBrownAle from "../assets/img/americanbrownale.JPG";
-import AmericanCreamAle from "../assets/img/creamale.JPG";
-import AmericanImperialPorter from "../assets/img/imperialporter.JPG";
-import AmericanImperialRedAle from "../assets/img/imperialredale.JPG";
-import AmericanImperialStout from "../assets/img/imperialstout.JPG";
-import IndiaPaleAle from "../assets/img/ipa.JPG";
-import AmericanPaleAle from "../assets/img/paleale.JPG";
-import AmericanSour from "../assets/img/sour.JPG";
-import AmericanStout from "../assets/img/stout.JPG";
-import AmericanStyleWheatWineAle from "../assets/img/wheatwine.JPG";
-import AmericanWheat from "../assets/img/wheat.JPG";
+import AmberAle from "../assets/updatedBeerImgs/AmericanAmberAle.png";
+import AmberLager from "../assets/updatedBeerImgs/AmericanAmberLager.png";
+import AmericanBarleyWine from "../assets/updatedBeerImgs/AmericanBarleyWine.png";
+import AmericanBlackAle from "../assets/updatedBeerImgs/AmericanBlackAle.png";
+import AmericanBrett from "../assets/updatedBeerImgs/AmericanBrett.png";
+import AmericanBrownAle from "../assets/updatedBeerImgs/AmericanBrownAle.png";
+import AmericanCreamAle from "../assets/updatedBeerImgs/AmericanCreamAle.png";
+import AmericanImperialPorter from "../assets/updatedBeerImgs/AmericanImperialPorter.png";
+import AmericanImperialRedAle from "../assets/updatedBeerImgs/AmericanImperialRedAle.png";
+import AmericanImperialStout from "../assets/updatedBeerImgs/AmericanImperialStout.png";
+import IndiaPaleAle from "../assets/updatedBeerImgs/AmericanIndiaIPA.png";
+import AmericanPaleAle from "../assets/updatedBeerImgs/AmericanPaleAle.png";
+import AmericanSour from "../assets/updatedBeerImgs/AmericanSour.png";
+import AmericanStout from "../assets/updatedBeerImgs/AmericanStout.png";
+import AmericanStyleWheatWineAle from "../assets/updatedBeerImgs/AmericanWheat.png";
+import AmericanWheat from "../assets/updatedBeerImgs/AmericanWheatWine.png";
 
 export const BeerMenuList = [
     {
