@@ -1,55 +1,50 @@
 import React, { useState } from "react";
-import { BeerMenuList } from "../helpers/BeerMenuList";
-import BeerItem from "../components/BeerItem";
-import "../styles/Beer.css";
-import { motion } from "framer-motion";
-import "../styles/Modal.css";
-//import { BiDrink } from 'react-icons/bi';
-import { MdOutlineSubtitles, MdPercent } from 'react-icons/md';
-/*website for icons: https://react-icons.github.io/react-icons/icons?name=md */
+import { ButtonGroup, ToggleButton } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FoodBeerPic from '../assets/img/foodparing.jpeg';
+import BeerMenu from '../components/BeerMenu';
+import '../styles/Beer.css';
 
 function Foodpairing() {
-  const [modal, setModal] = useState(false);
-  const [selectedBeer, setSelectedBeer] = useState(null);
+  const [radioValue, setRadioValue] = useState('1');
+  const [infographic, setInfographic] = useState(true);
+  const [menu, setMenu] = useState(false);
 
-  const toggleModal = (beer) => {
-    setSelectedBeer(beer);
-    setModal(!modal);
-  };
-
+  const radios = [
+    { name: 'Food and Beer Pairing', value: '1' },
+    { name: 'Beer Menu', value: '2' },
+  ];
+  console.log("Menu: " + menu);
+  console.log("infographic: " + infographic);
   return (
-    <div className="beerMenu">
-      <h2 className="beerMenuTitle"> Beer Menu </h2>
-      <motion.div className="beerMenuList">
-        {BeerMenuList.map((beerItem, key) => {
-          return (
-            <div onClick={() => toggleModal(beerItem)} key={key}>
-              <BeerItem
-                image={beerItem.image}
-                name={beerItem.name}
-                ABV={beerItem.ABV}
-              />
-              
-            </div>
-          );
-        })}
-      </motion.div>
+    <>
+      <ButtonGroup>
+        {radios.map((radio, idx) => (
+          <ToggleButton
+            key={idx}
+            id={`radio-${idx}`}
+            type="radio"
+            variant={idx % 2 ? 'outline-primary' : 'outline-primary'}
+            size = {'lg'}
+            name="radio"
+            value={radio.value}
+            checked={radioValue === radio.value}
+            onChange={(e) => {
+              setRadioValue(e.currentTarget.value);
+              setInfographic(!infographic);
+              setMenu(!menu);
+            }}
+          >
+            {radio.name}
+          </ToggleButton>
+        ))}
+      </ButtonGroup>
+      <img src={FoodBeerPic} className={ infographic ? 'displayContent' : 'notDisplay'  }/>
+      <div className={ menu ? 'displayContent' : 'notDisplay' }>
+        <BeerMenu />
+      </div>
       
-      {modal && (
-        <div className="modal">
-          
-          <div className="overlay" onClick={toggleModal} >
-          <div className="modal-content">
-            <img class='modal-img' src = {selectedBeer.image}/> 
-            <h2 class = 'text'>{selectedBeer.name}</h2>
-            <p class = 'text'><MdOutlineSubtitles fontsize= "1ems"/>{selectedBeer.description}</p>
-          </div>
-        </div>
-          </div>
-          
-      )}
-
-    </div>
+    </>
   );
 }
 

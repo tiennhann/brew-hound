@@ -1,6 +1,6 @@
 
 import { Banner }  from '../components/Banner';
-import { Beermenu } from '../components/Beermenu';
+import { BeerList } from '../components/BeerList';
 import { Bot } from '../components/Bot';
 import { Contact } from '../components/Contact';
 import { Map } from '../components/Map';
@@ -10,7 +10,7 @@ function Home() {
     return (
       <>
       <Banner/>
-      <Beermenu/>
+      <BeerList/>
       <Bot/>
       <Map/>
       <Contact/>
