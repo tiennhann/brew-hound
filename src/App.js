@@ -9,13 +9,14 @@ import Foodpairing from './pages/Foodpairing'
 import BeerBot from './pages/BeerBot';
 import Breweries from './pages/Breweries';
 import Ride from './pages/Ride';
+import MoreInfo from './pages/MoreInfo';
 
 function App() {
 
   return (
     <div className="App">
       <Router>
-      <NavBar/>
+        <NavBar/>
           <Routes>
             <Route index element = {<Home/>} />
             <Route exact path="/home"  element={<Home/>} />
@@ -23,6 +24,7 @@ function App() {
             <Route path="/beerBot"  element={<BeerBot />} />
             <Route path="/breweries" element={<Breweries/>} />
             <Route path="/ride" element={<Ride/>} />
+            <Route path="/moreInfo/:id" element={<MoreInfo/>} />
           </Routes>
         <Footer/>
       </Router>

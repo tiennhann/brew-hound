@@ -6,9 +6,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
-function BeerItem({image, name, ABV, description}) {
+function BeerItem({image, name, ABV, description, index}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -22,13 +23,15 @@ function BeerItem({image, name, ABV, description}) {
                 <Card.Title className='name'>{name}</Card.Title>
                 <Card.Text className='abv'>{ABV}</Card.Text>
             </Card.Body>
-            <Button variant='link' onClick={handleShow}>
-                More Info!
-            </Button>
+            <Link to={{pathname: `/moreInfo/${index}`}}>
+                <Button variant='link' onClick={handleShow}>
+                    More Info!
+                </Button>
+            </Link>
          </Card>
         
 
-        <Modal show={show} onHide={handleClose} size='lg' aria-labelledby='contained-modal-title-vcenter' centered>
+        <Modal show={show} onHide={handleClose} size='xl' aria-labelledby='contained-modal-title-vcenter' centered>
             <Modal.Body>
                 <Container id='contained-modal-title-vcenter'>
                     <Row className='align-items-center'>
@@ -37,7 +40,7 @@ function BeerItem({image, name, ABV, description}) {
                         </Col>
                         <Col md='auto'>
                             <h3>{name}</h3>
-                            <img src={image}/>
+                            <img className='resize' src={image}/>
                         </Col>
                         <Col style={{  }}> 
                             

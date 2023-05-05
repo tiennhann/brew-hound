@@ -11,6 +11,7 @@ import { MdOutlineSubtitles, MdPercent } from 'react-icons/md';
 function BeerMenu() {
   const [modal, setModal] = useState(false);
   const [selectedBeer, setSelectedBeer] = useState(null);
+  const num = 1;
 
   const toggleModal = (beer) => {
     setSelectedBeer(beer);
@@ -29,6 +30,7 @@ function BeerMenu() {
                 name={beerItem.name}
                 ABV={beerItem.ABV}
                 description={beerItem.description}
+                index = {beerItem.index}
               />
               
             </div>

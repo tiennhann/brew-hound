@@ -1,0 +1,20 @@
+.page{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 250px 0 100px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/img/home.jpeg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  
+}
+
+.linkBack{
+    display: flex;
+    justify-content: left;
+}

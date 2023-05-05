@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  padding: 250px 0 100px 0;
+  padding: 50px 0 100px 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -107,4 +107,19 @@
 
 .displayContent{
   display: none;
+}
+
+.moreInfoHeader{
+  display: inline-block;
+  width: 150px;
+  height: 250px;
+}
+
+.resize{
+  width: 150px;
+  height: 250px;
+}
+
+.buttonPadding{
+  padding-top: 150px;
 }
