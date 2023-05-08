@@ -23,6 +23,7 @@ function MoreInfo(beerItem) {
                     <Col sm={6}>
                         <h1>{beer.name}</h1>
                         <h3>ABV: {beer.ABV}</h3>
+                        <h3>IBUs: {beer.IBU}</h3>
                         <img src={beer.image}/> 
                     </Col>
                     <Col sm={6}>
