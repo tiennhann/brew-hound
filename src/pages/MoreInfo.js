@@ -28,7 +28,7 @@ function MoreInfo(beerItem) {
                     </Col>
                     <Col sm={6}>
                         <h2>Food Pairing</h2>
-                        <p>{beer.FoodPairing}</p>
+                        <p>{beer.FoodParing}</p>
                         <h2>Aroma</h2>
                         <p>{beer.Aroma}</p>
                         <h2>Mouthfeel</h2>

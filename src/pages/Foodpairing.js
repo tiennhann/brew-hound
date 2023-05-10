@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FoodBeerPic from '../assets/img/foodparing.jpeg';
 import BeerMenu from '../components/Beermenu';
 import '../styles/Beer.css';
+//ternary operator used in classname to dynamically change what is visible on the page
+//what is visible is changed using the radio button and the useState functions
 
 function Foodpairing() {
   const [radioValue, setRadioValue] = useState('2');
