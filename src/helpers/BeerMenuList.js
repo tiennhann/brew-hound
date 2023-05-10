@@ -41,7 +41,7 @@ export const BeerMenuList = [
         index: 1
     },
     {
-        name: "American Barley Wine",
+        name: "American BarleyWine",
         image: AmericanBarleyWine,
         ABV: "8.0-12.0%",
         IBU: "50-100",
@@ -53,13 +53,13 @@ export const BeerMenuList = [
         index: 2
     },
     {
-        name: "American Black Ale",
+        name: "Black IPA",
         image: AmericanBlackAle,
         ABV: "6.0-9.0%",
         IBU: "50-90",
-        description:": The American black ale is characterized by the perception of caramel malt and dark roasted malt flavor and aroma. Hop bitterness is perceived to be medium-high to high. Hop flavor and aroma are medium-high. Fruity, citrus, piney, floral and herbal character from hops of all origins may contribute to the overall experience. This beer is often called a black IPA or Cascadian dark ale.",
-        Aroma:"Hops, Citrus, Pine, and floral notes. Roasted malt aroma, caramel",
-        Mouthfeel:"Creamy smooth, Bitter, medium bodied.",
+        description:": A beer with the dryness, hop-forward balance, and flavor characteristics of an American IPA, but darker malts add a gentle and supportive flavor, not a strongly roasted or burnt character.",
+        Aroma:"Moderate to high hop aroma, often with stone fruit, tropical, citrusy, resinous, pine, berry, or melon character. Very low to moderate malt, possibly with light chocolate, coffee, or toast notes, as well as background caramel sweetness. Clean fermentation Profile, bit light esters acceptable.",
+        Mouthfeel:"Smooth Medium-light to medium body. Medium carbonation. Light creaminess optional. light warmth optional.",
         color: "Very Dark to Black",
         FoodParing: "Grilled Shrimp and Grits, Blue Cheeses, Aged Gouda, Chocolate Truffles",
         index: 3
@@ -81,7 +81,7 @@ export const BeerMenuList = [
         image: AmericanBrownAle,
         ABV: "4.3-6.2%",
         IBU: "20-30",
-        description:"A malty but hoppy standard-strength American ale frequently with chocolate and caramel flavors. The hop flavor and aroma complement and enhance the malt rather than clashing with it",
+        description:"A malty but hoppy standard-strength American ale frequently with chocolate and caramel flavors. The hop flavor and aroma complement and enhance the malt rather than clashing with it.",
         Aroma:"Moderate malty-sweet to malty-rich aroma with chocolate, caramel, nutty, or toasty qualities. Hop aroma is typically low to moderate, of almost any type that complements the malt",
         Mouthfeel:"Medium to medium-full body. More bitter versions may have a dry, resiny impression. Moderate to moderately-high carbonation. Stronger versions may be lightly warming.",
         color: ": Light to very dark brown color. Clear. Low to moderate off-white to light tan head",
@@ -95,8 +95,8 @@ export const BeerMenuList = [
         description:": ell-attenuated; Low to medium malty sweetness; Hoppy bitterness will be low; Well-balanced hop flavors with spicy, floral or herbal notes; Low amounts of diacetyl; Fruity esters possible; Dry & Sweet finish.",
         Aroma:"subtle malt aroma, with hints of grain, corn.",
         Mouthfeel:"Light-bodied, with carbonation level, beer may have a slightly sweet flavor.",
-        color: "",
-        FoodParing: "",
+        color: "American Cream Ale is typically a light to medium gold color with a good clarity. It can range from pale straw to a deeper golden colr depending on the recipe and brewing process.",
+        FoodParing: "Grilled Meats, Salads, Spicy Foods, Seafood, Light Fare.",
         index: 6
     },
     {
@@ -106,8 +106,8 @@ export const BeerMenuList = [
         description:": The American-style imperial stout is the strongest in alcohol and body of the stouts. Black in color, these beers typically have an extremely rich malty flavor and aroma with full, sweet malt character. Bitterness can come from roasted malts or hop additions",
         Aroma:"Rich complex aroma, with strong malt character",
         Mouthfeel:"Full-bodied, with low carbination.",
-        color: "",
-        FoodParing: "",
+        color: "Dark Brown, Black, Tan to a brown head.",
+        FoodParing: "Great Match for hearty and flavorful dishes. This includes grilled or roasted meats, smoked meats, BBQ.",
         index: 7
     },
     {
@@ -117,8 +117,8 @@ export const BeerMenuList = [
         description:": The use of American hops in the American imperial red ale lends to the perception of medium hop bitterness, flavor and aroma. Coupled with a solid malt profile, this should be a beer with balance between hop bitterness and malt sweetness. This is another example of modern American brewers taking an established style and boosting the flavor. California brewers are credited with creating this innovative style.",
         Aroma:"Strong hop aroma, malt with hidden notes of caramel.",
         Mouthfeel:"Full bodied with moderate to high carbonation level.",
-        color: "",
-        FoodParing: "",
+        color: "reddish-brown similar to a dark amber",
+        FoodParing: "Spicy beef or chicken fajitas, BBQ, Pulled Pork.",
         index: 8
     },
     {
@@ -128,8 +128,8 @@ export const BeerMenuList = [
         description:"Intense, complex & rich; Variable ranges of roastiness, malt tones, hoppiness & fruity esters. Notes of chocolate, coffee, burnt grain & dark fruits are common",
         Aroma:"Prominent roasted malt character",
         Mouthfeel:"Full bodied, with low to moderate carbonation.",
-        color: "",
-        FoodParing: "",
+        color: "Very Dark Beer, Deep Brown, Tan Head, Bitch Black beer.",
+        FoodParing: "American Imperial Stout pairs well with rich, bold flavors such as dark chocolate, espresso, roasted meats, strong cheeses, and hearty stews. It can also be enjoyed with desserts like chocolate cake, brownies, and ice cream. The robust and complex flavors of the beer complement the intensity of these dishes. ",
         index: 9
     },
     {
@@ -139,8 +139,8 @@ export const BeerMenuList = [
         description:"loral, fruity, citrus-like, piney or resinous American-variety hop character, the IPA beer style is all about hop flavor, aroma and bitterness.",
         Aroma:"Strong hop aroma, with notes of citrus, pine, and floral aromas.",
         Mouthfeel:"medium bodied, with moderate to high carbonation level.",
-        color: "",
-        FoodParing: "",
+        color: "Golden to the deep amber.",
+        FoodParing: "Curries, Mexican food, Sharp cheeses, Grilled meats.",
         index: 10
     },
     {
@@ -150,8 +150,8 @@ export const BeerMenuList = [
         description:": Hop and malt character similar to aroma (same intensities and descriptors apply). Caramel flavors are often absent or fairly restrained, but are acceptable as long as they don’t clash with the hops. Moderate to high bitterness. Clean fermentation profile. Fruity yeast esters can be moderate to none, although many hop varieties are quite fruity. Medium to dry finish. The balance is typically towards the late hops and bitterness; the malt presence should be supportive, not distracting. Hop flavor and bitterness often linger into the finish, but the aftertaste should generally be clean and not harsh. Fresh dry-hop flavor optional.",
         Aroma:"Moderate hop aroma, with notes of citrus and pine",
         Mouthfeel:"Medium bodied, with moderate to high carbonation level",
-        color: "",
-        FoodParing: "",
+        color: "Light golden to amber.",
+        FoodParing: "Mexican food, Curries, Grilled meats such as burgers, steaks, or BBQ",
         index: 11
     },
     {
@@ -161,8 +161,8 @@ export const BeerMenuList = [
         description:": The profiles of the resulting brews vary wildly, but most of them have a tart, acidic flavor, like biting into raspberries soaked in champagne. American sours fall under the sour ale umbrella, with the differentiating factor being that they're made in America.",
         Aroma:"tart aroma, with notes of citrus",
         Mouthfeel:"typically light to medium bodied with low to moderate carbonation.",
-        color: "",
-        FoodParing: "",
+        color: "Amber to reddish brown.",
+        FoodParing: "Salads with dressings, with fruit or cheese. Ceviche or sushi rolls",
         index: 12
     },
     {
@@ -172,8 +172,8 @@ export const BeerMenuList = [
         description:": Moderate to very high roasted flavors, often tasting of coffee, dark or bittersweet chocolate, or roasted coffee beans. May taste of slightly burnt coffee grounds, but this character should not be prominent. Low to medium malt sweetness, often with rich chocolate or caramel flavors. Medium to high bitterness. Low to high hop flavor, generally citrusy or resiny. Medium to dry finish, occasionally with a lightly burnt quality. Low esters optional. Light but smooth alcohol flavor optional.",
         Aroma:"Strong roasted malt aroma, notes of chocolate, coffee",
         Mouthfeel:"Full-bodied with a moderate to high carbonation level",
-        color: "",
-        FoodParing: "",
+        color: "Dark, Roasty Flavor, Coffee color.",
+        FoodParing: "Hearty Stews and chili, creamy desserts such as chocolate cake or cheese cake.",
         index: 13
     },
     {
@@ -183,8 +183,8 @@ export const BeerMenuList = [
         description:": bready, doughy, or cracker-like, which can extend into the finish. Hop bitterness should be higher than a German Wheat but remain modest, in the range of low to medium. The bitterness can linger into a somewhat crisp finish or disappear behind a slightly sweeter end.",
         Aroma:"Has moderate to strong malt aroma, with notes of bread, biscuit, or caramel.",
         Mouthfeel:"Full bodied with moderate to low carbonation.",
-        color: "",
-        FoodParing: "",
+        color: "Golden, Amber color.",
+        FoodParing: "Lamb, Pork, Beef. The sweetness can help balance the heat of spicy and curries.",
         index: 14
     },
     {
@@ -194,8 +194,8 @@ export const BeerMenuList = [
         description:": Light to moderately-strong bready, doughy, or grainy wheat flavor, which can linger into the finish. May have a moderate malty sweetness or can finish quite dry and crisp.Low to moderate hop bitterness, sometimes lasting into the finish. Balance is usually even, but may be slightly bitter. Low to moderate citrusy, spicy, floral, or fruity hop flavor. Moderate esters optional. No banana. No clove phenols. ",
         Aroma:"American wheat beer typically has a moderate to low malt aroma, with notes of bread, biscuit, and or cereal.",
         Mouthfeel:"typically light to medium bodied with high carbonation.",
-        color: "",
-        FoodParing: "",
+        color: "Light amber color",
+        FoodParing: "Salads, Seafood, Lighter proteins, spicy foods, citrus.",
         index: 15
     },
 ];
