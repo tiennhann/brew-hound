@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../assets/img/home.jpeg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,4 +16,57 @@
 .linkBack{
     display: flex;
     justify-content: left;
+}
+
+.page button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: hsla(24, 38%, 97%, 0.835);
+  height: 30px;
+  width: 200px;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.page button:hover {
+  background-color: #f36a08;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.page h2 {
+  padding-top: 75px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 20px;
+}
+.page h3 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 20px;
+}
+
+.page p {
+  color: #f4eeee;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  text-align: justify;
 }

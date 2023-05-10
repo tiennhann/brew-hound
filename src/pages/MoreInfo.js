@@ -16,7 +16,9 @@ function MoreInfo(beerItem) {
             <div>
                 <Row>
                     <Col sm={12}>
-                        <Link to='/pairing'>Back to Beer Menu</Link>
+                        <Link to='/pairing'>
+                            <button>Back to Beer Menu</button>
+                        </Link>
                     </Col>
                 </Row>
                 <Row>

@@ -13,8 +13,9 @@ function Foodpairing() {
   const [menu, setMenu] = useState(false);
 
   const radios = [
-    { name: 'Food and Beer Pairing', value: '1' },
     { name: 'Beer Menu', value: '2' },
+    { name: 'Food and Beer Pairing', value: '1' },
+    
   ];
   console.log("Menu: " + menu);
   console.log("infographic: " + infographic);

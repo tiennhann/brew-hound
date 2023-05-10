@@ -7,11 +7,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import '../styles/BeerItem.css';
+
 //Link is used to make card clickable
 //index is used to pass the index variable to the url
 //passing the varibale makes the each card point to its own page
 
-function BeerItem({image, name, ABV, description, index}) {
+function BeerItem({image, name, ABV, index}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -20,7 +22,7 @@ function BeerItem({image, name, ABV, description, index}) {
         <>
         <div className='beerCard'>
             <Link to={{pathname: `/moreInfo/${index}`}}>
-                <Card style={{ width: '18rem', color: 'black' }}>
+                <Card className = 'card' style={{ width: '18rem', color: 'black' }}>
                     <Card.Img variant='top' src={image}/>
                     
                     <Card.Body>
