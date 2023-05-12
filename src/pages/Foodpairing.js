@@ -39,7 +39,12 @@ function Foodpairing() {
                 setInfographic(!infographic);
                 setMenu(!menu);
               }}
-            >
+              style={
+                radioValue === radio.value
+                  ? { backgroundColor: 'orange', color: 'black', borderColor: 'white'}
+                  : { backgroundColor: 'black', color: 'white', borderColor: 'white' }
+              }
+              >
               {radio.name}
             </ToggleButton>
           ))}
