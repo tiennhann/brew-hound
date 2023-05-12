@@ -129,3 +129,11 @@
 .beerCard{
   padding-bottom: 1rem;
 }
+
+.infographic{
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}

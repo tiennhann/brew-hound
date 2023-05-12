@@ -50,7 +50,7 @@ function Foodpairing() {
           ))}
         </ButtonGroup>
       </div>
-      <img src={FoodBeerPic} className={ infographic ? 'displayContent' : 'notDisplay'  }/>
+      <img src={FoodBeerPic} className={ infographic ? 'displayContent' : 'notDisplay infographic' }/>
       
       <div className={ menu ? 'displayContent' : 'notDisplay' }>
         
