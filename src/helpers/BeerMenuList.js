@@ -14,7 +14,8 @@ import AmericanSour from "../assets/updatedBeerImgs/AmericanSour.png";
 import AmericanStout from "../assets/updatedBeerImgs/AmericanStout.png";
 import AmericanStyleWheatWineAle from "../assets/updatedBeerImgs/AmericanWheat.png";
 import AmericanWheat from "../assets/updatedBeerImgs/AmericanWheatWine.png";
-
+//When updating the BeerMenuList to add more beers, make sure that the index is added properly. 
+//The index value is used as a argument passed in the url so that each beer has its own MoreInfo page
 export const BeerMenuList = [
     {
         name: "American Amber Ale",

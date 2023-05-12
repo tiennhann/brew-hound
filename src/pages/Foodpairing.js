@@ -6,6 +6,7 @@ import BeerMenu from '../components/Beermenu';
 import '../styles/Beer.css';
 //ternary operator used in classname to dynamically change what is visible on the page
 //what is visible is changed using the radio button and the useState functions
+//The names are the opposite of what they stand for i.e. displayContent hides conent and notDisplay displays content
 
 function Foodpairing() {
   const [radioValue, setRadioValue] = useState('2');
