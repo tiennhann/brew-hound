@@ -15,7 +15,7 @@ function Breweries() {
     script.addEventListener('load', () => {
       const map = new window.google.maps.Map(document.getElementById('map'), {
         center: { lat: 32.3181, lng: -106.7626 },
-        zoom: 11.5,
+        zoom: 12.5,
       });
 
       const request = {
