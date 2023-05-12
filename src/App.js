@@ -10,12 +10,14 @@ import BeerBot from './pages/BeerBot';
 import Breweries from './pages/Breweries';
 import Ride from './pages/Ride';
 import MoreInfo from './pages/MoreInfo';
+import ScrollToTop from './helpers/ScrollToTop';
 
 function App() {
 
   return (
     <div className="App">
       <Router>
+        <ScrollToTop>
         <NavBar/>
           <Routes>
             <Route index element = {<Home/>} />
@@ -27,6 +29,7 @@ function App() {
             <Route path="/moreInfo/:id" element={<MoreInfo/>} />
           </Routes>
         <Footer/>
+        </ScrollToTop>
       </Router>
       
     </div>
