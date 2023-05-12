@@ -22,7 +22,7 @@ function BeerItem({image, name, ABV, index}) {
         <>
         <div className='beerCard'>
             <Link to={{pathname: `/moreInfo/${index}`}}>
-                <Card className = 'card' style={{ width: '18rem', color: 'black' }}>
+                <Card className = 'card' style={{ width: '18rem', color: 'black' , height: '27rem'}}>
                     <Card.Img variant='top' src={image}/>
                     
                     <Card.Body>
