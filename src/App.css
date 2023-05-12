@@ -55,8 +55,11 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 button {
@@ -99,7 +102,7 @@ p.danger {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #343028;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
