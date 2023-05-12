@@ -119,7 +119,7 @@ function Breweries() {
         { lat: 32.3107, lng: -106.8171, name: "Ice Box Picacho" },
         { lat: 32.3085, lng: -106.8377, name: "Picacho Peak Brewing Co." },
         { lat: 32.3434, lng: -106.7651, name: "Bosque Brewing Co. - Telshor" },
-        { lat: 32.3445, lng: -106.7736, name: "The Other Place 2" },
+        { lat: 32.3448, lng: -106.7736, name: "Icebox Brewery N Main" },
       ];
       
       const infowindow = new window.google.maps.InfoWindow();
